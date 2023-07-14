@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
-import logo from "../assets/changedlogo.jpg";
+// import logo from "../assets/changedlogo.jpg";
 
 export default function Navbar(props) {
     const [nav, setNav] = useState(false);
@@ -15,7 +15,7 @@ export default function Navbar(props) {
     return (
         <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
             <h1 className="text-[#66FCF1] font-bold text-3xl w-full">
-            <a href="/"> E-CELL PVGCOET</a>
+                <a href="/"> E-CELL PVGCOET</a>
             </h1>
             <ul className="hidden md:flex">
                 <li className="p-4 uppercase hover:text-[#66fcf1]">

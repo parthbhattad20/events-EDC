@@ -4,7 +4,7 @@ function EventCard() {
     return (
         <div className="flex flex-col md:flex-row gap-4">
             <div class="max-w-sm rounded-lg border shadow-md bg-gray-800 border-gray-700 basis:1/3">
-                <a href="#">
+                <a href="/">
                     <img
                         class="rounded-t-lg"
                         src={process.env.PUBLIC_URL + `/images/ranasangram.jpg`}
@@ -12,7 +12,7 @@ function EventCard() {
                     />
                 </a>
                 <div class="p-5">
-                    <a href="#">
+                    <a href="/">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
                             Lorem Ipsum
                         </h5>
@@ -30,7 +30,7 @@ function EventCard() {
                 </div>
             </div>
             <div class="max-w-sm rounded-lg border shadow-md bg-gray-800 border-gray-700 basis:1/3">
-                <a href="#">
+                <a href="/">
                     <img
                         class="rounded-t-lg"
                         src={process.env.PUBLIC_URL + `/images/Rimpact (2).jpg`}
@@ -38,7 +38,7 @@ function EventCard() {
                     />
                 </a>
                 <div class="p-5">
-                    <a href="#">
+                    <a href="/">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
                             Lorem Ipsum
                         </h5>
@@ -56,7 +56,7 @@ function EventCard() {
                 </div>
             </div>
             <div class="max-w-sm rounded-lg border shadow-md bg-gray-800 border-gray-700 basis:1/3">
-                <a href="#">
+                <a href="/">
                     <img
                         class="rounded-t-lg"
                         src={
@@ -66,7 +66,7 @@ function EventCard() {
                     />
                 </a>
                 <div class="p-5">
-                    <a href="#">
+                    <a href="/">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
                             Lorem Ipsum
                         </h5>
