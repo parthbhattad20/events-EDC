@@ -1,10 +1,11 @@
 const mongoose = require("mongoose");
+mongoose.set("strictQuery", false);
 
 const DB = process.env.MONGO_URL;
 
 module.exports = function (callback) {
     mongoose.connect(
-        "mongodb://localhost:27017/Event-edc",
+        "mongodb+srv://Parth:nBRdfgdgHavz0uM3@cluster0.xgiwngw.mongodb.net/?retryWrites=true&w=majority",
         { useNewUrlParser: true },
         async (err, result) => {
             if (err) console.log("---" + err);
