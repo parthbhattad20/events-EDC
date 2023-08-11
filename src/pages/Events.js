@@ -7,6 +7,7 @@ import Footer from "../components/Footer"
 // import Data from "../components/CardData"
 import EventCard from "../components/EventCard"
 import TEventCard from "../components/TEventCard"
+import image from "../assets/bg-image.jpg"
 
 export default function Events(){
 
@@ -58,10 +59,10 @@ export default function Events(){
             <Navbar />
             <div className="">
                 <div className="relative bg-[#0b0c10]">
-                    <img src={process.env.PUBLIC_URL + '/images/hero-event.png'} alt="events" className="w-full h-[90vh] md:h-[75vh] bg-no-repeat bg-cover object-cover"/>
+                    <img src={image} alt="events" className="w-full h-[90vh] md:h-[75vh] bg-no-repeat bg-cover object-cover"/>
                     <div className="absolute top-[80%] left-1 md:top-17 md:left-17 w-42 md:w-auto">
                         <h1 className="text-center text-6xl lg:text-7xl xl:text-8xl pb-2 md:pb-4 text-[#66fcf1] font-thin uppercase tracking-wider">Events</h1>
-                        <p className="text-normal text-center border-t border-[#66fcf1] p-0 pt-2 md:pt-4 tracking-wide">Lorem Ipsum .is simply</p>
+                        <p className="text-normal text-center border-t border-[#66fcf1] p-0 pt-2 md:pt-4 tracking-wide"></p>
                     </div>
                 </div>
                 <div className="p-12 pt-2">

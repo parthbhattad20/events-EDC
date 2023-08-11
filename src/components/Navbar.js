@@ -16,8 +16,8 @@ export default function Navbar(props) {
     }
     return (
         <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
-            <h1 className="text-[#66FCF1] font-bold text-3xl w-full">
-                <a href="/">E-Cell</a>
+            <h1 className="text-[#66FCF1] font-bold text-3xl w-full hover:text-blue-800">
+                <a href="https://entrpreneurishippvg.netlify.app/">E-Cell</a>
             </h1>
             <ul className="hidden md:flex">
                 <li className="p-4 uppercase hover:text-[#66fcf1]">
