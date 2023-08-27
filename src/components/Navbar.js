@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
-// import logo from "../assets/changedlogo.jpg";
+import logo from "../assets/edclogo.png";
 // import { CircleLoader } from "react-spinners";
 
 
@@ -17,7 +17,7 @@ export default function Navbar(props) {
     return (
         <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
             <h1 className="text-[#66FCF1] font-bold text-3xl w-full hover:text-blue-800">
-                <a href="https://entrpreneurishippvg.netlify.app/">E-Cell</a>
+                <a href="https://entrpreneurishippvg.netlify.app/"><img src={logo} alt="" className="h-[60px] "/></a>
             </h1>
             <ul className="hidden md:flex">
                 <li className="p-4 uppercase hover:text-[#66fcf1]">
@@ -86,7 +86,7 @@ export default function Navbar(props) {
                 }
             >
                 <h1 className="text-[#66FCF1] font-bold text-3xl w-full m-4">
-                    <a href="/"> E-CELL PVGCOET</a>
+                <a href="https://entrpreneurishippvg.netlify.app/"><img src={logo} alt="" className="h-[70px] "/></a>
                 </h1>
                 <ul className="p-4 uppercase">
                     <li className="p-4 uppercase font-bold border-b border-gray-700 hover:text-[#66fcf1]">
