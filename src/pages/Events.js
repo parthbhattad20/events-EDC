@@ -8,6 +8,7 @@ import Footer from "../components/Footer"
 import EventCard from "../components/EventCard"
 import TEventCard from "../components/TEventCard"
 import video from "../assets/edc_trailer1.mp4"
+import poster from "../assets/ comingsoon.png"
 
 export default function Events(){
 
@@ -60,8 +61,8 @@ export default function Events(){
       <div className="">
         <div className="relative bg-[#0b0c10]">
           <div className="video-container h-[590px] object-fit">
-            <video autoPlay loop  className="w-full h-full object-cover">
-              <source src={video} type="video/mp4" />
+            <video autoPlay poster={poster} loop className="w-full h-full object-cover">
+              <source src={video}  type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
