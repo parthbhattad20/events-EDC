@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import logo from "../assets/edclogo.png";
-// import { CircleLoader } from "react-spinners";
+
 
 
 export default function Navbar(props) {
