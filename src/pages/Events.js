@@ -59,7 +59,7 @@ export default function Events(){
       <Navbar />
       <div className="">
         <div className="relative bg-[#0b0c10]">
-          <div className="video-container h-[650px]">
+          <div className="video-container h-[590px] object-fit">
             <video autoPlay loop  className="w-full h-full object-cover">
               <source src={video} type="video/mp4" />
               Your browser does not support the video tag.
@@ -70,9 +70,9 @@ export default function Events(){
             <p className="text-normal text-center border-t border-[#66fcf1] p-0 pt-2 md:pt-4 tracking-wide"></p>
           </div>
         </div>
-        <div className="p-12 pt-2">
+        <div className=" pt-2">
           <div>
-            <h2 className="text-3xl max-w-[1250px] pl-7 mx-auto md:text-4xl xl:text-5xl py-8 text-[#66fcf1] font-thin uppercase tracking-wider">	</h2>
+            <h2 className="text-center text-6xl lg:text-7xl xl:text-8xl pb-2 md:pb-4 text-[#66fcf1] font-bold uppercase tracking-wider">	Events</h2>
             <div className="max-w-[1250px] mx-auto px-8 py-4">
               <TEventCard />
             </div>
