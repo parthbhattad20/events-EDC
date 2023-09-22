@@ -61,7 +61,7 @@ export default function Events(){
       <div className="">
         <div className="relative bg-[#0b0c10]">
           <div className="video-container h-[590px] object-fit">
-            <video autoPlay poster='https://miro.medium.com/v2/resize:fit:1400/1*okbBhXU2x0f_eFyUVyc-gA.gif' loop  className="w-full h-full object-cover">
+            <video autoPlay poster='https://media.tenor.com/UnFx-k_lSckAAAAM/amalie-steiness.gif' loop  className="w-full h-full object-cover">
               <source src={video}  type="video/mp4" />
               Your browser does not support the video tag.
             </video>
