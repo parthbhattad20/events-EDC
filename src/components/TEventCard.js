@@ -1,7 +1,7 @@
 import React from "react";
-import sepaker from "../assets/SPEAKER-SESSION.png"
-import neworking from "../assets/NETWORK-SESSION.png"
-import interview from "../assets/interview-session.png"
+import sepaker from "../assets/SS.jpeg"
+import networking from "../assets/Is.jpeg"
+import interview from "../assets/IN.jpeg"
 
 function TEventCard() {
     return (
@@ -16,7 +16,7 @@ function TEventCard() {
                 </a>
                 <div class="p-5">
                     <a href="/">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white uppercase">
                             Speaker Session
                         </h5>
                     </a>
@@ -42,8 +42,8 @@ function TEventCard() {
                 </a>
                 <div class="p-5">
                     <a href="/">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                            Interview Session
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white uppercase">
+                            Internship Nexus
                         </h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-400">
@@ -62,14 +62,14 @@ function TEventCard() {
                 <a href="/">
                     <img
                         class="rounded-t-lg"
-                        src={neworking}
+                        src={networking}
                         alt=""
                     />
                 </a>
                 <div class="p-5">
                     <a href="/">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                            Networking Session
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white uppercase">
+                            Interview Session
                         </h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-400">
