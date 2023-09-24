@@ -11,7 +11,7 @@ function Footer() {
             <a href="https://www.linkedin.com/company/pvgedc/?originalSubdomain=in"  className="px-3 text-xl hover:text-[#66FCF1] hover:transition-transform hover:scale-110"><GrLinkedin/></a>
         </div>
         <div className="mx-auto w-fit my-2">
-            <p className="text-xs">@2023 E-Cell PVG. All Rights Reserved</p>
+            <p className="text-xs">@2023 ED-Cell PVG. All Rights Reserved</p>
         </div>
     </div>
   )
