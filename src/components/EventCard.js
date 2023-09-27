@@ -27,7 +27,7 @@ function EventCard() {
                   
                     </p>
                     <a
-                        href="/register"
+                        href="https://unstop.com/p/treasure-hunt-venturers-2023-by-entrepreneurship-development-cell-pvgcoet-entrepreneurship-development-cell-pvgcoet-782458"
                         class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                     >
                         Register 
@@ -53,7 +53,7 @@ function EventCard() {
                    
                     </p>
                     <a
-                        href="/register"
+                        href="https://unstop.com/p/shark-tank-entrepreneurship-development-cell-pvgcoet-782460"
                         class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                     >
                         Register 
@@ -81,7 +81,7 @@ function EventCard() {
                    
                     </p>
                     <a
-                        href="/register"
+                        href="https://unstop.com/p/cric-auction-venturers-2023-by-entrepreneurship-development-cell-pvgcoet-entrepreneurship-development-cell-pvgcoet-782453"
                         class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                     >
                         Register 
@@ -109,7 +109,7 @@ function EventCard() {
                    
                     </p>
                     <a
-                        href="/register"
+                        href=" https://unstop.com/p/board-meeting-venturers-2023-by-entrepreneurship-development-cell-pvgcoet-entrepreneurship-development-cell-pvgcoet-782467"
                         class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                     >
                         Register 
