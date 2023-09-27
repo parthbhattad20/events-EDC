@@ -137,7 +137,7 @@ function EventCard() {
                    
                     </p>
                     <a
-                        href="/register"
+                        href="http://34.229.59.233:8000/"
                         class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                     >
                         Register 
