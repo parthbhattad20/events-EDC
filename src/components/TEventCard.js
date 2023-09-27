@@ -50,7 +50,7 @@ function TEventCard() {
                    
                     </p>
                     <a
-                        href="/register"
+                        href="https://unstop.com/p/internship-nexus-venturers-2023-by-entrepreneurship-development-cell-pvgcoet-entrepreneurship-development-cell-pvgcoet-782432"
                         class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                     >
                         Register 
