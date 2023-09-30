@@ -55,7 +55,7 @@ const Timeline = () => {
                                     <div className="order-1 w-5/12"></div>
                                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                                         <p className="mb-3 text-base text-cyan-300">
-                                            26 Sept-6 Oct, 2023
+                                            28 Sept-6 Oct, 2023
                                         </p>
                                         <h4 className="mb-3 font-bold text-lg md:text-2xl">
                                             {" "}
@@ -63,7 +63,7 @@ const Timeline = () => {
                                         </h4>
                                         <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                                             Pick your favourite event(s) and
-                                            register in that event by 4rth Oct .
+                                            register in that event by 4th Oct .
                                         </p>
                                     </div>
                                 </div>
