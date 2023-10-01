@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import EventCard from "../components/EventCard"
 import TEventCard from "../components/TEventCard"
-import video from "../assets/edc_trailer1.mp4"
+
 
 
 export default function Events(){
@@ -12,12 +12,6 @@ export default function Events(){
       <Navbar />
       <div className="">
         <div className="relative bg-[#0b0c10]">
-          <div className="video-container h-[590px] object-fit">
-            <video autoPlay poster='https://media.tenor.com/UnFx-k_lSckAAAAM/amalie-steiness.gif' loop  className="w-full h-full object-cover">
-              <source src={video}  type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
           <div className="absolute top-[85%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-42 md:w-auto">
             {/* <h1 className="text-center text-6xl lg:text-7xl xl:text-8xl pb-2 md:pb-4 text-[#66fcf1] font-bold uppercase tracking-wider"></h1> */}
             <p className="text-normal text-center border-t border-[#66fcf1] p-0 pt-2 md:pt-4 tracking-wide"></p>
