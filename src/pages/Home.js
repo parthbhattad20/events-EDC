@@ -1,13 +1,21 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import TimeRemaining from "./time";
+
+import bhau from "../assets/BHAU.jpeg"
+import campustimes from "../assets/CT.jpeg"
+import saket from "../assets/SAKET.jpeg"
+import nyahari from "../assets/nyahari.jpg"
+import SMG from "../assets/SMG.jpg";
+import time from "../assets/TIME.jpeg"
+import finlatics from "../assets/FIN.jpeg"
 
 const Timeline = () => {
     return (
         <section>
             <Navbar />
-            <TimeRemaining/>
+            
+        
             <div className="bg-black text-white py-8">
                 <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
                     <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
@@ -116,7 +124,45 @@ const Timeline = () => {
                         </div>
                     </div>
                 </div>
+                <div class="bg-black py-8">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-4 text-center text-cyan-300">Our Sponsors</h2>
+        <div class="flex flex-wrap justify-center">
+          
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4">
+                <img src={SMG} alt="Sponsor 1" class="mx-auto h-20" />
             </div>
+        
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4">
+                <img src={nyahari} alt="Sponsor 2" class="mx-auto h-20" />
+            </div>
+       
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4">
+                <img src={bhau} alt="Sponsor 3" class="mx-auto h-20" />
+            </div>
+        
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4">
+                <img src={campustimes} alt="Sponsor 4" class="mx-auto h-20" />
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4">
+                <img src="https://media.potatopro.com/budhani-bros-1600x785.jpg?width=480&height=480&mode=fit" alt="Sponsor 4" class="mx-auto h-20" />
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4">
+                <img src={saket} alt="Sponsor 4" class="mx-auto h-20" />
+            </div>
+            <div class="w-full object-fit sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4">
+                <img src={finlatics} alt="Sponsor 4" class="mx-auto h-20" />
+            </div>
+
+ 
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-4">
+                <img src={time} alt="Sponsor 5" class="mx-auto h-20" />
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+      
       
             <Footer />
         </section>
